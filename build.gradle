@@ -20,6 +20,8 @@ dependencies {
     implementation 'me.paulschwarz:spring-dotenv:2.4.1'
     implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
     implementation 'org.springframework.boot:spring-boot-starter-aop'
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
 
     // WebFlux
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
